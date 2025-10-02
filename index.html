@@ -157,6 +157,45 @@
                 width: 100%;
             }
         }
+
+        /* Phone tweaks */
+        @media (max-width: 480px) {
+            .resume-container {
+                margin: 10px;
+            }
+            .sidebar {
+                padding: 20px 16px;
+            }
+            .main-content {
+                padding: 20px 16px 24px 16px;
+            }
+            .name {
+                font-size: 24px;
+            }
+            .position {
+                font-size: 16px;
+                margin-bottom: 16px;
+            }
+            .section-title {
+                font-size: 20px;
+                margin-bottom: 16px;
+                padding-bottom: 8px;
+            }
+            .work-item, .education-item, .course-item, .project-item {
+                margin-bottom: 16px;
+                padding-bottom: 12px;
+            }
+            .profile-photo {
+                position: static;
+                width: 120px;
+                height: 120px;
+                margin: 12px auto 8px auto;
+                display: block;
+            }
+            .main-content .position + .section-title {
+                width: 100%;
+            }
+        }
     </style>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
