@@ -77,25 +77,25 @@
             text-align: center;
         }
         
-        .work-item, .education-item, .course-item, .project-item {
+        .work-item, .education-item, .course-item, .project-item, .comp-item {
             margin-bottom: 20px;
             padding-bottom: 15px;
             border-bottom: 1px solid #eee;
         }
         
-        .work-title, .education-title, .course-title, .project-title {
+        .work-title, .education-title, .course-title, .project-title, .comp-title {
             font-weight: bold;
             color: #1d1d1d;
             margin-bottom: 5px;
         }
         
-        .work-date, .education-date, .course-date, .project-date {
+        .work-date, .education-date, .course-date, .project-date, .comp-date {
             color: #7f8c8d;
             font-size: 14px;
             margin-bottom: 8px;
         }
         
-        .work-description, .education-description, .course-description, .project-description {
+        .work-description, .education-description, .course-description, .project-description, .comp-description {
             margin-top: 5px;
         }
         
@@ -143,6 +143,11 @@
         .course-description ul {
             margin-left: 20px;
         }
+
+        p {
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
         
         @media (max-width: 768px) {
             .resume-container {
@@ -181,7 +186,7 @@
                 margin-bottom: 16px;
                 padding-bottom: 8px;
             }
-            .work-item, .education-item, .course-item, .project-item {
+            .work-item, .education-item, .course-item, .project-item, .comp-item {
                 margin-bottom: 16px;
                 padding-bottom: 12px;
             }
@@ -212,7 +217,6 @@
                 <li><i class="fas fa-phone"></i> +7 (977) 468-63-20</li>
                 <li><i class="fab fa-telegram"></i> @famelaflame</li>
                 <li><i class="fab fa-github"></i> diamovements</li>
-                <li><i class="fab fa-linkedin"></i> </li>
             </ul>
             
             <h2 class="sidebar-title">Languages</h2>
@@ -270,6 +274,17 @@
                     <p>Studied programming basics and DSA</p>
                 </div>
             </div>
+
+            <h2 class="section-title">Competitions</h2>
+            <div class="comp-item">
+                <div class="comp-title">IT_ONE Cup. Code & Analyst, hackathon</div>
+                <div class="comp-date">Oct 2025</div>
+                <div class="comp-description">
+                    <p>Rating: 4th place of 198 teams, <a href="">link</a></p>
+                    <p>Suspicious transactions detection platform made with Java & Spring Boot using machine learning and multiple rules for recognizing fraud.</p>
+                    <p>Source code & project presentation: <a href="https://github.com/diamovements/fraud-detection">link</a></p>
+                </div>
+            </div>
             
             <h2 class="section-title">Courses</h2>
             <div class="course-item">
@@ -279,14 +294,13 @@
                     <p>Rating: 4/52, <a href="https://drive.google.com/file/d/1qMoj2t2rTSAgGhXz6xWm70Cv8qRg3oBv/view?usp=sharing">link</a></p>
                     <p>Studied:</p>
                     <ul>
-                        <li>Kotlin</li>
+                        <li>Kotlin & Java</li>
                         <li>REST, SOLID, Design Patterns</li>
                         <li>Spring, Spring Boot, Spring Security</li>
                         <li>ELK, Grafana, Prometheus</li>
                         <li>Message brokers</li>
                         <li>Docker, CI/CD</li>
                         <li>Databases</li>
-                        <li>Java</li>
                     </ul>
                 </div>
             </div>
